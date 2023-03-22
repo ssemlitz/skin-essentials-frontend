@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 
 const HeroBanner = () => {
   return ( 
-    <div>
+    <div className={styles.hero}>
       <img className={styles.heroImage} src="./images/hero-banner.jpg" alt="" />
-      <div>
+      <div className={styles.heroText}>
         <p>Have fun in the sun with our</p>
         <h1>Summer Sale</h1>
         <Link>
-          <button>Best Sellers</button>
+          <button>Shop the Sale</button>
         </Link>
       </div>
       
